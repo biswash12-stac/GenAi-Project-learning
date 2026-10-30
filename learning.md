@@ -33,3 +33,9 @@ import anything from "./math.js";
 It would still work! (Assuming the file has a default export.)
 
 Think of it this way: The book is important, not the nickname you give it.
+
+
+^=# today i learned
+Unlike required, minlength, and maxlength, unique doesn't accept a validator-message array.
+which means
+we cannot do  unique: [true, "username already has account"] else we can just do this unique : true
